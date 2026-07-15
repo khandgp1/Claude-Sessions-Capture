@@ -42,8 +42,7 @@ project). Default to project when working in a repository.
 
 ## Step 2 — Gather requirements
 
-Close open questions with **one** batched `AskUserQuestion` call (max 4
-questions). Skip any question the request already answers; skip the call
+Close open questions with batched `AskUserQuestion` call. Skip any question the request already answers; skip the call
 entirely if nothing is open. Draw from this bank:
 
 - **Single responsibility** — what is the agent's one job? Official best
